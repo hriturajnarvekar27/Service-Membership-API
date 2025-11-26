@@ -93,7 +93,7 @@ membership-api/
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/membership-api.git
+git clone https://github.com/hriturajnarvekar27/Service-Membership-API.git
 cd membership-api
 ```
 
@@ -222,7 +222,7 @@ POST /members/
 Content-Type: application/json
 
 {
-  "name": "John Doe",
+  "name": "Hrituraj Narvekar",
   "phone": "9876543210",
   "status": "active"
 }
@@ -323,85 +323,12 @@ def test_create_plan():
 
 ---
 
-## 📊 Project Checklist
-
-| Requirement | Status |
-|-------------|--------|
-| RESTful API endpoints | ✅ Complete |
-| Proper data modeling | ✅ Complete |
-| PostgreSQL triggers | ✅ Implemented |
-| Clean code structure | ✅ Modular |
-| Error handling | ✅ Included |
-| Input validation | ✅ Pydantic schemas |
-| API documentation | ✅ Swagger/ReDoc |
-| Unit tests | ✅ Basic coverage |
-| Search/Filter functionality | ✅ Implemented |
-| Environment configuration | ✅ .env support |
-
----
-
-## 🚀 Deployment
-
-### Docker Support (Coming Soon)
-
-```dockerfile
-# Dockerfile example
-FROM python:3.10-slim
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-COPY . .
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
-```
-
-### Deployment Platforms
-
-- **Render** - Easy deployment with PostgreSQL addon
-- **Railway** - Automatic deployments from GitHub
-- **AWS EC2** - Full control with scalability
-- **Heroku** - Quick deployment with PostgreSQL
-- **DigitalOcean** - App Platform with database
-
----
-
-## 🔮 Future Enhancements
-
-- 🔐 **JWT Authentication** - Secure API endpoints
-- 🐳 **Docker Compose** - Containerized deployment
-- 📧 **Email Notifications** - Membership expiry alerts
-- 💳 **Payment Integration** - Stripe/PayPal support
-- 📊 **Analytics Dashboard** - Member statistics and trends
-- 📱 **Mobile App Integration** - REST API for mobile clients
-- 🔔 **Push Notifications** - Real-time updates
-- 📄 **Report Generation** - PDF receipts and invoices
-- 🌐 **Multi-tenant Support** - Support for multiple gyms/centers
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
 ## 👨‍💻 Author
 
-**Your Name**
-- 📧 Email: your.email@example.com
-- 🐙 GitHub: [@yourusername](https://github.com/yourusername)
-- 💼 LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
+**Hrituraj Narvekar**
+- 📧 Email: ruturajnarvekar836@gmail.com
 
 ---
 
